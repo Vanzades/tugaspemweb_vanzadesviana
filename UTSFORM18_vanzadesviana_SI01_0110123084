@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praktikumUTS</title>
+</head>
+<body>
+    <div style="background-color: black; color: white; height: 50px;">
+        <table align="center" cellpadding="10px">
+            <td>STT TERPADU NURUL FIKRI</td>
+        </table>
+    </div>
+    <fieldset>
+        <legend>kelola ruangan</legend>
+        <div>
+            <form action="" method="POST"></form>
+            <table>
+                <tr>
+                    <td>nama ruangan:</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>kategori</td>
+                    <td>
+                        <select>
+                            <option value="AULA">AULA</option>
+                            <option value="KELAS">KELAS</option>
+                            <option value="AUDIT">AUDIT</option>
+                        </select>
+                </tr>
+                <tr>
+                    <td>deskripsi ruangan:</td>
+                    <td><textarea name="description" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td>fasilitas ruangan:</td>
+                    <td>
+                        <input type="checkbox" name="permit" value="sound system">sound system
+                        <input type="checkbox" name="permit" value="wifi">wifi
+                        <input type="checkbox" name="permit" value="layar besar">layar besar
+                    </td>
+                </tr>
+                <tr>
+                    <td>kapasitas:</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>lokasi ruangan:</td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="proses" value="simpan" style="box-shadow: 4px 3px 2px black; background-color: blue; color: white;"></td>
+                    <td><input type="reset" name="unproses" value="reset" style="box-shadow: 4px 3px 2px black; background-color: red; color: white;"></td>
+                </tr>
+            </table>
+        </div>
+    </fieldset>
+    <br>
+    <div style="background-color: black; color: white; height: 50px;">
+        <table align="center" cellpadding="10px">
+            <td>THANKS YOU</td>
+        </table>
+    </div>
+</body>
+</html>
